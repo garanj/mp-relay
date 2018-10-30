@@ -32,7 +32,7 @@ One solution is to use Cloud Functions to relay the submission using Measurement
 
 ## Invoking the function
 
-1.  Once the Cloud Function is set up, the UI will show an endpoint address something like: 
+1.  Once the Cloud Function is set up, the UI will show an endpoint address similar to: 
 
     ```
     https://us-central1-my-project-218412.cloudfunctions.net/mpRelay
@@ -59,5 +59,5 @@ One solution is to use Cloud Functions to relay the submission using Measurement
     
  1.  Note that :
  
- *   The `key` property needs to match the key specified in your `index.js` in your Cloud Function.
- *   The `hits` property is a list, so either single hits can be supplied, or multiple, which will use [Measurement Protocol Batch Mode](https://developers.google.com/analytics/devguides/collection/protocol/v1/devguide#batch).
+     *   The `key` property needs to match the key specified in your `index.js` in your Cloud Function.
+     *   The `hits` property is a list, so either single hits can be supplied, or multiple, which will use [Measurement Protocol Batch Mode](https://developers.google.com/analytics/devguides/collection/protocol/v1/devguide#batch).

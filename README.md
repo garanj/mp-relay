@@ -6,7 +6,7 @@ Relay Google Analytics Measurement Protocol hits via Cloud Functions
 
 Often it can be useful to use [Measurement Protocol](https://developers.google.com/analytics/devguides/collection/protocol/v1/) to submit events to Google Analytics from your own network, for example, when importing offline conversions.
 
-However, if views are defined in GA to exclude your network, these events will not appear.
+However, if views are defined in GA containing filters to exclude your network, these events will not appear.
 
 One solution is to use Cloud Functions to relay the submission using Measurement Protocol, such that the source of each request is no longer within your network.
 

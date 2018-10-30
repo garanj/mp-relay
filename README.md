@@ -58,7 +58,7 @@ One solution is to use Cloud Functions to relay the submission using Measurement
         }
       ],
       "key": "YOUR_KEY_AS_PER_INDEX.JS"
-    };
+    }
     
     ```
     

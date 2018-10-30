@@ -38,7 +38,8 @@ exports.mpRelay = (req, res) => {
   }, function optionalCallback(err, httpResponse, body) {
     if (err) {
       res.status(httpResponse.statusCode).send(err);
+    } else {
+      res.status(200).send('Success');
     }
-    res.status(200).send('Success');
   });
 };

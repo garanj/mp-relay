@@ -2,6 +2,8 @@
 
 Relay Google Analytics Measurement Protocol hits via Cloud Functions
 
+![diagram](mp-relay.png)
+
 ## Purpose
 
 Often it can be useful to use [Measurement Protocol](https://developers.google.com/analytics/devguides/collection/protocol/v1/) to submit events to Google Analytics from your own network, for example, when importing offline conversions.

@@ -52,6 +52,9 @@ One solution is to use Cloud Functions to relay the submission using Measurement
           "cid": "123456",
           "dp": "%2FpageA"
           // etc ....
+        },
+        {
+          // Hit 2 etc...
         }
       ],
       "key": "YOUR_KEY_AS_PER_INDEX.JS"
